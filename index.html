@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Student Quiz</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="person-circle-sharp"></ion-icon>
+                        </span>
+                        <span class="title">Account</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="chatbox-ellipses-sharp"></ion-icon>
+                        </span>
+                        <span class="title">Notices</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="questions.html">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">Questions</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+
+                    <a href="">
+
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+
+                        <span class="title">Input Password</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="login.html">
+                        <span class="icon"></i>
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign In</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="toggle" onclick="tiggleMenu()"></div>
+        <div class="dashboard">
+            <div class="card">
+                <h3 style="padding-top: 20px;">Student Quiz</h3>
+                <a href="questions.html">
+                    <p style="padding-top: 20px;">Start Quiz</p>
+                </a>
+                <a href="login.html"><button class="loginbtn" style="margin-top: 20px;">Log In</button></a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function toggleMenu() {
+                let navigation = document.querySelector('.navigation')
+                navigation.classList.toggle('active');
+            }
+        </script>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    </body>
+</html>
