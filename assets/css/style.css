@@ -45,3 +45,15 @@ body {
 .container .question-container {
     margin: 3rem;
 }
+.container button {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0 0 1rem 1rem;
+    padding: 8rem;
+    margin-top: 8rem;
+    background: #36ff0ebe;
+    color: rgb(255, 255, 255);
+}
