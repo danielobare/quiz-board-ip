@@ -147,3 +147,10 @@ span:hover {
     text-align: start;
     white-space: nowrap;
 }
+.toggle {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background: #33ff00be;
+    cursor: pointer;
+}
