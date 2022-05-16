@@ -105,5 +105,13 @@ meter {
     height: 100%;
     width: 15em;
     background-color: hsl(218deg 50% 91%);
-    
+}
+.submitformbtn {
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: -5px;
+    cursor: pointer;
+    color: rgb(72, 255, 0);
+    width: 5em;
+    height: 2em;
 }
