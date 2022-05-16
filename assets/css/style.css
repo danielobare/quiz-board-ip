@@ -20,3 +20,8 @@ body {
 #question {
     color: #0c2b06be;
 }
+.input {
+    border-radius: 8px;
+    width: 14em;
+    height: 2em;
+}
