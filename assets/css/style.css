@@ -74,3 +74,8 @@ body {
     width: 100%;
     list-style: none;
 }
+.navigation ul li:hover {
+    background: #5eff00be;
+    border-radius: 10px;
+    width: 21em;
+}
