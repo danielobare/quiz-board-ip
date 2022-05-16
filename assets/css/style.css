@@ -154,3 +154,6 @@ span:hover {
     background: #33ff00be;
     cursor: pointer;
 }
+.toggle:hover {
+    background: #2bff00be;
+}
