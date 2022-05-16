@@ -57,3 +57,10 @@ body {
     background: #36ff0ebe;
     color: rgb(255, 255, 255);
 }
+.loginbtn {
+    border-radius: 5px;
+    cursor: pointer;
+    width: 12em;
+    height: 2em;
+    background-color: #fff; 
+}
