@@ -115,3 +115,6 @@ meter {
     width: 5em;
     height: 2em;
 }
+span:hover {
+    color: white;
+}
