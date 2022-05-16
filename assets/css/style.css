@@ -135,3 +135,6 @@ span:hover {
     display: block;
     min-width: 60px;
 }
+.navigation ul li a .icon fa {
+    font-size: 20px;
+}
