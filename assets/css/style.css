@@ -178,3 +178,13 @@ span:hover {
 a {
     color: rgb(255, 255, 255);
 }
+.form {
+    margin-top: 20em;
+    margin-left: 40em;
+    padding-top: 1em;
+    padding-left: 3em;
+    width: 30em;
+    height: 20em;
+    border-radius: 10px;
+    background-color: #00ff0dbe;
+}
