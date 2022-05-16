@@ -138,3 +138,12 @@ span:hover {
 .navigation ul li a .icon fa {
     font-size: 20px;
 }
+.navigation ul li .title {
+    position: relative;
+    padding: 0 10px;
+    height: 40px;
+    display: block;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
