@@ -188,3 +188,7 @@ a {
     border-radius: 10px;
     background-color: #00ff0dbe;
 }
+.input-container {
+    padding-bottom: 20px;
+    margin-left: -22px;
+}
