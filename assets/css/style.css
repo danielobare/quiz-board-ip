@@ -79,6 +79,13 @@ body {
     border-radius: 10px;
     width: 21em;
 }
+meter {
+    height: 5rem;
+    border: 1px solid rgb(255, 255, 255);
+    width: 30rem;
+    margin-top: 3rem;
+    margin-left: 9rem;
+}
 .container button:hover {
     background: #ffe600be;
     transition: 0.5s;
