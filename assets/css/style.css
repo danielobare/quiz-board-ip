@@ -64,3 +64,8 @@ body {
     height: 2em;
     background-color: #fff; 
 }
+.navigation ul {
+    width: 100%;
+    position: relative;
+    margin-left: 0px;
+}
