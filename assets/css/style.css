@@ -69,3 +69,8 @@ body {
     position: relative;
     margin-left: 0px;
 }
+.navigation ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
