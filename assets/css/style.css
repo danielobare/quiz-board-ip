@@ -111,7 +111,7 @@ meter {
     background-color: #fff;
     margin-left: -5px;
     cursor: pointer;
-    color: rgb(72, 255, 0);
+    color: rgb(16, 34, 139);
     width: 5em;
     height: 2em;
 }
@@ -151,7 +151,6 @@ span:hover {
     position: relative;
     height: 60px;
     width: 60px;
-    background: #33ff00be;
     cursor: pointer;
 }
 .toggle:hover {
