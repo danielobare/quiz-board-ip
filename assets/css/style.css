@@ -46,16 +46,15 @@ body {
     margin: 3rem;
 }
 .container button {
-    width: 100%;
+    width:min-content;
     letter-spacing: 1px;
     font-size: 1.5rem;
-    text-transform: uppercase;
+    text-transform:lowercase;
     cursor: pointer;
     border-radius: 0 0 1rem 1rem;
     padding: 8rem;
     margin-top: 8rem;
-    background: #36ff0ebe;
-    color: rgb(255, 255, 255);
+    background: green;
 }
 .loginbtn {
     border-radius: 5px;
@@ -108,7 +107,7 @@ meter {
     margin-left: -5px;
     cursor: pointer;
     color: rgb(16, 34, 139);
-    width: 5em;
+    width: 2em;
     height: 2em;
 }
 span:hover {
@@ -165,7 +164,7 @@ span:hover {
     text-align: center;
     width: 20em;
     height: 20em;
-    background-color: #00ff22be;
+    background-color:green;
     color: rgb(255, 255, 255);
     margin-left: 25em;
     border-radius: 5px;
@@ -181,9 +180,9 @@ a {
     width: 30em;
     height: 20em;
     border-radius: 10px;
-    background-color: #00ff0dbe;
+    background-color:green;
 }
 .input-container {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     margin-left: -22px;
 }
