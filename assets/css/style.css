@@ -99,12 +99,8 @@ meter {
 }
 .navigation {
     position: fixed;
-    border: 2px solid #3cff00be;
-    transition: 0.5s;
-    overflow: hidden;
     height: 100%;
     width: 15em;
-    background-color: hsl(218deg 50% 91%);
 }
 .submitformbtn {
     border-radius: 5px;
