@@ -1,73 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="assets/css/style.css">
-        <title>The Questioner</title>
+        <title>Quiz Board</title>
     </head>
     <body>
         <div class="navigation">
             <ul>
-                <li>
-                    <a href="">
-                        <span class="icon">
-                            <ion-icon name="home-outline"></ion-icon>
-                        </span>
-                        <span class="title">Home</span>
-                    </a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a>
-                        <span class="icon">
-                            <ion-icon name="lock-closed-outline"></ion-icon>
-                        </span>
-                        <span class="title">Password</span>
-                    </a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a>
-                        <span class="icon"></i>
-                            <ion-icon name="log-out-outline"></ion-icon>
-                        </span>
-                        <span class="title">Sign In</span>
-                    </a>
-                </li>
+                <li><a href="index.html"><span class="icon"><ion-icon name="home-outline"></ion-icon></span><span class="title">Home</span></a></li>
+                <li><a href="login.html"><span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span><span class="title">Sign up</span></a></li>
+                <li><a href="login.html"><span class="icon"></i><ion-icon name="log-out-outline"></ion-icon></span><span class="title">Sign in</span></a></li>
             </ul>
         </div>
-        <div class="toggle" onclick="tiggleMenu()"></div>
         <div class="container">
             <div class="question-container">
                 <h1 id="question">Question Text</h1>
-                <ul class="option1">
+                <ol class="answer-options">
                     <li>
-                        <input type="checkbox" name="1" id="a" required required>
-                        <label for="a">null</label>
+                        <input type="checkbox" name="1" id="a" required>
+                        <label for="a"></label>
                     </li>
                     <li>
                         <input type="checkbox" name="1" id="b" required>
-                        <label for="b">null</label>
+                        <label for="b"></label>
                     </li>
-                </ul>
-                <ul class="option2">
                     <li>
                         <input type="checkbox" name="1" id="c" required>
-                        <label for="c">null</label>
+                        <label for="c"></label>
                     </li>
                     <li>
                         <input type="checkbox" name="1" id="d" required>
-                        <label for="d">null</label>
+                        <label for="d"></label>
                     </li>
-                </ul>
+                </ol>
             </div>
-            <button type="button" id="submit">Submit</button>
+            <button type="button" id="submit">Next Question</button>
         </div>
         <script src="assets/js/main.js"></script>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     </body>
 </html>

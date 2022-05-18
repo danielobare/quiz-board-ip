@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Log In</title>
-  </head>
   <body>
-    <div class="form">
-      <div class="subtitle">Please create your account!</div>
-      <div class="input-container ic1">
-        <input id="firstname" class="input" type="text" placeholder=" First Name " />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Quiz Board</title>
+    <div class="loginsignup">
+      <h1>Quiz Board</h1>
+      <h2>Log in or create your account from here below.</h2>
+      
+      <div class="container-all">
+        <div class="controls">
+          <input type="radio" name="tag1" id="login" checked>
+          <label for="login">Login</label>
+          <input type="radio" name="tag1" id="signup" checked>
+          <label for="signup">Sign up</label>
+          <br>
+        </div>
+        <div class="form2">
+          <form action="#">
+            <div class="inputfield">
+              <input type="text" placeholder="Email Address" required>
+            </div>
+            <br>
+            <div class="inputfield">
+              <input type="password" placeholder="Password" required>
+            </div>
+            <div>
+              <input type="submit" value="Login">
+            </div>
+            <div class="create-new-account"><a>Not a member? Create your account now here below</a></div>
+          </form>
+          <form action="#">
+            <div class="inputfield">
+              <input type="text" placeholder="Email Address" required>
+            </div>
+            <br>
+            <div class="inputfield">
+              <input type="password" placeholder="Password" required>
+            </div>
+            <br>
+            <div class="inputfield">
+              <input type="password" placeholder="Confirm password" required>
+            </div>
+            <br>
+            <div>
+              <input type="submit" value="Signup">
+            </div>
+            <br>
+          </form>
+        </div>
       </div>
-      <div class="input-container ic2">
-        <input id="lastname" class="input" type="text" placeholder="Last Name " />
       </div>
-      <div class="input-container ic2">
-        <input id="email" class="input" type="text" placeholder="Email" />
+      <div>
       </div>
-      <a href="questions.html" class="submitform"><button class="loginbtn" type="text"
-          class="submitformbtn">Submit</button></a>
-      <a>
-        <p style="padding-left:10px ;">No account?</p>
-      </a>
-    </div>
-    </div>
   </body>
 </html>

@@ -1,3 +1,21 @@
 {
-    "liveServer.settings.port": 5501
+    "name": "quiz-board-ip",
+    "version": "1.0.0",
+    "description": "#### Website with programming quizes with the ability to log in, score and get results, 15 May, 2022",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/danielobare/quiz-board-ip.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/danielobare/quiz-board-ip/issues"
+    },
+    "homepage": "https://github.com/danielobare/quiz-board-ip#readme"
+
 }
